@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func xxmain() {
 	http.HandleFunc("/", indexHandler)
 	port := os.Getenv("PORT")
 	if port == "" {
